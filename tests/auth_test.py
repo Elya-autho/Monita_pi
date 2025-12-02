@@ -25,7 +25,7 @@ send_next =  browser.find_element(*Login_page_locators.SEND_BUTTON_NEXT).click()
 time.sleep(2)
 input_code = browser.find_element(*Login_page_locators.INPUT_SMS_CODE).send_keys(get_code(10318))
 time.sleep(12)
-send_next_after_code = browser.find_element(Login_page_locators.SEND_BUTTON_NEXT_SMS_CODE).click()
+send_next_after_code = browser.find_element(*Login_page_locators.SEND_BUTTON_NEXT_SMS_CODE).click()
 time.sleep(12)
 browser.quit()
 
