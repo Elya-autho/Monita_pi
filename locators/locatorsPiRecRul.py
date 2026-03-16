@@ -17,3 +17,4 @@ class PiRecRulesPage:
 
 class PiRecRulesCreate:
     CLICK_ADD_STRATEGY = ('By.ClASS_NAME, 'button button--blue rr-strategy-add')
+
