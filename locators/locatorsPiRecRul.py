@@ -18,6 +18,12 @@ class PiRecRulesPage:
 
 class PiRecRulesCreate:
     CLICK_ADD_STRATEGY = (By.CLASS_NAME, 'button button--blue rr-strategy-add')
+    INPUT_NAME_STRATEGY = (By.CLASS_NAME, 'modal-as-name')
+    SCHECK_RADIO_ACTIVE = (By.CLASS_NAME, 'modal-as-radio-label modal-as-radio-label-active')
+    SCHECK_RADIO_NONACTIVE = (By.CLASS_NAME, 'modal-as-radio-label modal-as-radio-label-nonactive')
+
+
+
 
 
 
