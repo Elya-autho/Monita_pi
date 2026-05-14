@@ -17,5 +17,5 @@ def test_authorizations(browser, base_url, user_phone):
     time.sleep(2)
     send_next_after_code = browser.find_element(*Login_page_locators.SEND_BUTTON_NEXT_SMS_CODE).click()
     time.sleep(12)
-    browser.quit()
+
 
